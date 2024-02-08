@@ -1,0 +1,41 @@
+/* AboutMe.css */
+
+/* User image styles */
+.user-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; /* Makes the image circular */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.user-image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b); /* Fancy gradient background */
+  opacity: 0.7; /* Adjust the opacity as needed */
+}
+
+/* About me text styles */
+.about-me-text {
+  padding: 30px;
+  background-color: #fff; /* White background for text */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+}
+
+.about-me-text h2 {
+  font-size: 2.5rem;
+  color: #333; /* Dark text color */
+  font-weight: bold;
+}
+
+.about-me-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666; /* Medium text color */
+}
