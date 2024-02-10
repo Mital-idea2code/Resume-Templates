@@ -1,8 +1,28 @@
+body {
+  font-family: -webkit-body !important;
+}
+
+.textContainer {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px #3498db;
+}
+
+.textContainer:hover {
+  box-shadow: 0 4px #3498db; /* Adjust the thickness and color of the border as needed */
+  transform: translateY(-15px); /* Adjust the vertical movement as needed */
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
   text-transform: uppercase;
   font-weight: 500;
 }
 
+.mb-50 {
+  margin-bottom: 50px;
+}
 /* In your CSS file or styles.js */
 .full-screen-image {
   position: relative;

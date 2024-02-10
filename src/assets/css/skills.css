@@ -1,0 +1,17 @@
+/* skills.css */
+
+.skill-item {
+  margin-bottom: 20px;
+}
+
+.skill-item p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.progressBar {
+  height: 20px;
+  font-size: 14px;
+}
+
+/* Adjust styles as needed */
