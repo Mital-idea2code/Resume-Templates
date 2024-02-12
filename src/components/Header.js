@@ -15,8 +15,10 @@ function Header() {
             <Nav>
               <Nav.Link href="#about-me">About</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
+              <Nav.Link href="#experience_education">Education</Nav.Link>
+              <Nav.Link href="#experience_education">Experience</Nav.Link>
               <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-              <Nav.Link href="#experience">Experience</Nav.Link>
+              <Nav.Link href="#testimonials">Testimonials</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -27,7 +29,7 @@ function Header() {
       <div className="full-screen-image order-lg-2">
         <div className="overlay">
           <h1 className="text-center text-white">Hi, I'm </h1>
-          <h1 className="text-center text-white headname_style">Mital Movaliya</h1>
+          <h1 className="text-center text-white headname_style"> John Stanbridge</h1>
 
           <p className="lead text-center text-white fsize-30">Frontend Web Developer and Graphics Designer</p>
 
@@ -56,22 +58,6 @@ function Header() {
       </div>
 
       {/* Navbar for Smaller Screens */}
-      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary fixed-top d-lg-none order-lg-3">
-        <Container>
-          <Navbar.Brand href="#home">PORTFOLIO</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">{/* Add your Nav items here */}</Nav>
-            <Nav>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-              <Nav.Link href="#experience">Experience</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
     </header>
   );
 }

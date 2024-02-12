@@ -116,32 +116,28 @@ body {
 }
 
 .header-container {
-  background: #80808096;
+  /* background: #80808096; */
+  background: #00b4d9;
   padding: 11px;
   border-radius: 12px;
 }
 .navbar-brand,
 .navbar-brand:hover {
   color: white;
+  font-weight: bold;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   color: white;
+  font-weight: bold;
 }
 /* Adjust the order of elements for different screen sizes */
 @media (max-width: 992px) {
   .header-container {
-    background: white;
+    background: #00b4d9;
     padding: 11px;
     border-radius: 12px;
   }
   .headname_style {
     font-size: 20px;
-  }
-  .navbar-brand,
-  .navbar-brand:hover {
-    color: black;
-  }
-  .navbar-expand-lg .navbar-nav .nav-link {
-    color: black;
   }
 }
