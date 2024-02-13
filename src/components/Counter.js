@@ -3,7 +3,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../assets/css/counter.css";
-import CounterBg from "../assets/images/counter-bg.jpg";
 
 const Counter = () => {
   return (

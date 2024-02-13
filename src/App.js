@@ -7,6 +7,8 @@ import WorkExperience from "./components/WorkExperience";
 import Portfolio from "./components/Portfolio";
 import Counter from "./components/Counter";
 import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/header.css";
 
@@ -20,6 +22,8 @@ function App() {
       <Counter />
       <Portfolio />
       <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 }

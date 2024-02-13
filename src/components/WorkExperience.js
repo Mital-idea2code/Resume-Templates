@@ -84,14 +84,14 @@ const ExperienceItem = ({ data }) => (
   </div>
 );
 
-const Experience = () =>
-  experienceData.length > 0 && (
-    <div className="timeline-container">
-      {experienceData.map((data, idx) => (
-        <ExperienceItem data={data} key={idx} />
-      ))}
-    </div>
-  );
+// const Experience = () =>
+//   experienceData.length > 0 && (
+//     <div className="timeline-container">
+//       {experienceData.map((data, idx) => (
+//         <ExperienceItem data={data} key={idx} />
+//       ))}
+//     </div>
+//   );
 
 const WorkExperience = () => {
   return (
@@ -145,7 +145,13 @@ const WorkExperience = () => {
               <h2 className="text-center mb-50 textContainer">
                 <span className="borderEffect">Work Experience</span>
               </h2>
-              <Experience />
+              {experienceData.length > 0 && (
+                <div className="timeline-container">
+                  {experienceData.map((data, idx) => (
+                    <ExperienceItem data={data} key={idx} />
+                  ))}
+                </div>
+              )}
             </Container>
           </Col>
         </Row>

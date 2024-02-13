@@ -1,0 +1,27 @@
+/* ContactInfo.css */
+
+.contact-info-container {
+  margin-top: 50px;
+}
+
+.contact-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.info-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.info-card p {
+  font-size: 16px;
+}
+
+.info-card p a {
+  color: #007bff;
+}
+.form-input {
+  margin: 12px 0px;
+}

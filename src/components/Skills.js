@@ -32,11 +32,9 @@ const SkillItem = ({ label, value, color }) => (
           path: {
             stroke: color,
             strokeLinecap: "round",
-            // Apply transition for smooth fill-up effect
             transition: "stroke-dashoffset 1s ease-in-out",
-            // Calculate stroke-dashoffset based on the value
             strokeDashoffset: 251.2 * (1 - value / 100),
-            strokeDasharray: 251.2, // Circumference of the circle
+            strokeDasharray: 251.2,
           },
         }}
         className="progressbar-path"
