@@ -1,6 +1,5 @@
 /* Slider.css */
 
-/* Override slick-carousel styles if needed */
 .slick-slider {
   position: relative;
   display: block;
@@ -98,4 +97,7 @@
 }
 .card-text {
   font-size: 20px !important;
+}
+.slick-dots li button:before {
+  font-size: 12px !important;
 }

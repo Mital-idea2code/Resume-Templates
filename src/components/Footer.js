@@ -1,11 +1,11 @@
 // Footer.js
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../assets/css/footer.css"; // Import your custom CSS
+import "../assets/css/footer.css";
 import { FaFacebook, FaLinkedin, FaTwitter, FaGoogle, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="site-footer">
+    <footer className="site-footer animated">
       <Container>
         <Row>
           <Col md={6}>

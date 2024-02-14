@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import "../assets/css/portfolio.css"; // Import your custom CSS file for additional styling
-import { FaExternalLinkAlt } from "react-icons/fa"; // Import the external link icon
+import "../assets/css/portfolio.css";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import portfolio1 from "../assets/images/portfolio/portfolio-1.jpg";
 import portfolio2 from "../assets/images/portfolio/portfolio-2.jpg";
 import portfolio3 from "../assets/images/portfolio/portfolio-3.jpg";
@@ -42,7 +42,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="py-5">
+    <section id="portfolio" className="py-5 animated">
       <Container className="portfolio-container">
         <h2 className="text-center mb-4 textContainer">
           <span className="borderEffect">Portfolio</span>

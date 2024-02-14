@@ -44,7 +44,7 @@ const sliderSettings = {
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-5">
+    <section id="testimonials" className="py-5 animated">
       <Container className="">
         <h2 className="text-center  textContainer">
           <span className="borderEffect">Testimonials</span>

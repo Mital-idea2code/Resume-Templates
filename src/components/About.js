@@ -4,11 +4,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../assets/css/about.css";
 import ProfilePic from "../assets/images/profile.jpg";
-import { FaPhone, FaEnvelopeSquare } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about-me" className="py-5">
+    <section id="about-me" className="py-5 animated">
       <Container>
         <h2 className="text-center mb-4 textContainer">
           <span className="borderEffect">About Me</span>
@@ -37,12 +36,12 @@ const About = () => {
               </div>
               <div className="info-block">
                 <p>
-                  <b>EMAIL:</b> anthony@company.com
+                  <b>EMAIL:</b> john@company.com
                 </p>
               </div>
               <div className="info-block">
                 <p>
-                  <b>PHONE:</b> +1718-111-0011
+                  <b>PHONE:</b> +1718-568-9875
                 </p>
               </div>
               <div className="info-block">

@@ -2,11 +2,11 @@
 import React from "react";
 import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
 import "../assets/css/contact.css"; // Import your custom CSS
-import { FaEnvelope, FaMapMarker, FaMapPin, FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope, FaMapMarker, FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-5">
+    <section id="contact" className="py-5 animated">
       <Container>
         <h2 className="text-center mb-4 textContainer">
           <span className="borderEffect">Contact Me</span>
@@ -52,12 +52,12 @@ const Contact = () => {
                       </span>
                       <br />
                       <span className="contact-detailSpan">
-                        <a href="mailto:hello@tom.com" className="a-color">
-                          hello@tom.com
+                        <a href="mailto:hello@john.com" className="a-color">
+                          hello@john.com
                         </a>
                         <br />
-                        <a href="mailto:tomsaulnier@gmail.com" className="a-color">
-                          tomsaulnier@gmail.com
+                        <a href="mailto:john@company.com" className="a-color">
+                          john@company.com
                         </a>
                       </span>
                     </p>
@@ -68,8 +68,8 @@ const Contact = () => {
                       </span>
                       <br />
                       <span className="contact-detailSpan">
-                        + (00) 123 456 789
-                        <br />+ (00) 123 344 789
+                        + (00) 1718-568-9875
+                        <br />+ (00) 1223-898-9515
                       </span>
                     </p>
                   </Col>

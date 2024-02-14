@@ -86,10 +86,9 @@ const ExperienceItem = ({ data }) => (
 
 const WorkExperience = () => {
   return (
-    <section id="experience_education" className="py-5">
+    <section id="experience_education" className="py-5 animated">
       <Container>
         <Row>
-          {" "}
           <Col lg={5}>
             <h2 className="text-center mb-50 textContainer">
               <span className="borderEffect">Education</span>
