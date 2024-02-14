@@ -13,6 +13,7 @@ function Header() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
+              <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about-me">About</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
               <Nav.Link href="#experience_education">Education</Nav.Link>
@@ -26,13 +27,11 @@ function Header() {
       </Navbar>
 
       {/* Full-screen Image */}
-      <div className="full-screen-image order-lg-2">
+      <div className="full-screen-image order-lg-2" id="home">
         <div className="overlay">
           <h1 className="text-center text-white">Hi, I'm </h1>
           <h1 className="text-center text-white headname_style"> John Stanbridge</h1>
-
-          <p className="lead text-center text-white fsize-30">Frontend Web Developer and Graphics Designer</p>
-
+          <p className="lead text-center text-white ">Frontend Web Developer and Graphics Designer</p>
           {/* Social Media Links */}
           <div className="social-links text-center">
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">

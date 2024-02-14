@@ -15,7 +15,6 @@ const About = () => {
         </h2>
         <Row>
           {/* Left side - User image */}
-
           <Col lg={6}>
             <div className="about-me-text">
               <p>
@@ -58,15 +57,10 @@ const About = () => {
               </div>
             </div>
           </Col>
-
           {/* Right side - User description */}
           <Col lg={6} className="mb-4">
             <div className="user-image-container">
-              <img
-                src={ProfilePic} // Replace with the URL of your user image
-                alt="User"
-                className="img-fluid "
-              />
+              <img src={ProfilePic} alt="User" className="img-fluid" />
             </div>
           </Col>
         </Row>

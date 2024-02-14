@@ -12,8 +12,7 @@ const Contact = () => {
           <span className="borderEffect">Contact Me</span>
         </h2>
         <Row>
-          {/* Left side - Contact Form */}
-          <Col md={12}>
+          <Col md={8} className="mx-auto">
             <Card className="contact-card">
               <Card.Body>
                 <Row>
@@ -31,31 +30,47 @@ const Contact = () => {
                         <Form.Control as="textarea" rows={4} placeholder="Your Message" />
                       </Form.Group>
 
-                      <Button variant="primary" type="submit">
-                        Send Message
-                      </Button>
+                      <Button className="theme-btn">SEND MESSAGE</Button>
                     </Form>
                   </Col>
                   <Col md={6}>
                     {" "}
                     <p>
-                      ADDRESS <br />
-                      <FaMapMarker /> San Francisco, CA
+                      <span className="contact-headerSpan">
+                        <FaMapMarker />
+                        &nbsp; ADDRESS
+                      </span>{" "}
+                      <br />
+                      <span className="contact-detailSpan">
+                        140, City Center, <br />
+                        New York, U.S.A
+                      </span>
                     </p>
                     <p>
-                      EMAIL ID <br />
-                      <FaEnvelope />
-                      <a href="mailto:hello@tom.com">hello@tom.com</a>
-                      <br /> <FaEnvelope />
-                      <a href="mailto:tomsaulnier@gmail.com">tomsaulnier@gmail.com</a>
+                      <span className="contact-headerSpan">
+                        <FaEnvelope /> &nbsp;EMAIL ID{" "}
+                      </span>
                       <br />
+                      <span className="contact-detailSpan">
+                        <a href="mailto:hello@tom.com" className="a-color">
+                          hello@tom.com
+                        </a>
+                        <br />
+                        <a href="mailto:tomsaulnier@gmail.com" className="a-color">
+                          tomsaulnier@gmail.com
+                        </a>
+                      </span>
                     </p>
                     <p>
-                      CONTACT NUMBER
+                      <span className="contact-headerSpan">
+                        {" "}
+                        <FaPhoneAlt /> &nbsp; CONTACT NUMBER
+                      </span>
                       <br />
-                      <FaPhoneAlt /> + (00) 123 456 789
-                      <br />
-                      <FaPhoneAlt />+ (00) 123 344 789
+                      <span className="contact-detailSpan">
+                        + (00) 123 456 789
+                        <br />+ (00) 123 344 789
+                      </span>
                     </p>
                   </Col>
                 </Row>

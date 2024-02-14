@@ -8,11 +8,11 @@ const experienceData = [
     text: "Started working on the app-ideas repository",
     date: "February 25 2019",
     category: {
-      tag: "app-ideas",
+      tag: "CREATIVE DIRECTOR",
       color: "#FFDB14",
     },
     link: {
-      url: "https://github.com/florinpop17/app-ideas",
+      url: "https://google.com",
       text: "Check it out on GitHub",
     },
   },
@@ -20,11 +20,11 @@ const experienceData = [
     text: "Started the Weekly Coding Challenge program",
     date: "March 04 2019",
     category: {
-      tag: "blog",
+      tag: "SENIOR UI/UX DESIGNER",
       color: "#e17b77",
     },
     link: {
-      url: "https://florin-pop/blog/2019/03/weekly-coding-challenge/",
+      url: "https://google.com",
       text: "Check it out here",
     },
   },
@@ -32,11 +32,11 @@ const experienceData = [
     text: "Got 1.000 followers on Twitter",
     date: "March 07 2019",
     category: {
-      tag: "twitter",
+      tag: "DESIGN DIRECTOR",
       color: "#1DA1F2",
     },
     link: {
-      url: "https://twitter.com/florinpop1705",
+      url: "https://google.com",
       text: "See profile",
     },
   },
@@ -44,11 +44,11 @@ const experienceData = [
     text: "I published my first article in the FreeCodeCamp Medium Publication",
     date: "March 18 2019",
     category: {
-      tag: "medium",
+      tag: "UI/UX DESIGNER",
       color: "#018f69",
     },
     link: {
-      url: "https://medium.freecodecamp.org/how-to-build-a-double-slider-sign-in-and-sign-up-form-6a5d03612a34",
+      url: "https://google.com",
       text: "Check it out here",
     },
   },
@@ -56,11 +56,11 @@ const experienceData = [
     text: "Over 12.000 views in a single day on my Medium posts",
     date: "April 05 2019",
     category: {
-      tag: "medium",
+      tag: "Front End Developer",
       color: "#018f69",
     },
     link: {
-      url: "https://medium.com/@popflorin1705",
+      url: "https://google.com",
       text: "See profile",
     },
   },
@@ -83,15 +83,6 @@ const ExperienceItem = ({ data }) => (
     </div>
   </div>
 );
-
-// const Experience = () =>
-//   experienceData.length > 0 && (
-//     <div className="timeline-container">
-//       {experienceData.map((data, idx) => (
-//         <ExperienceItem data={data} key={idx} />
-//       ))}
-//     </div>
-//   );
 
 const WorkExperience = () => {
   return (
