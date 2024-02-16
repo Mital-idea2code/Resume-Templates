@@ -9,7 +9,13 @@ const Footer = () => {
       <Container>
         <Row>
           <Col md={6}>
-            <p className="mt-10 text-left">© Idea2codeInfotech. All rights reserved.</p>
+            <p className="mt-10 text-left">
+              ©{" "}
+              <a href="https://idea2codeinfotech.com/" className="text-white" target="_blank">
+                Idea2codeInfotech
+              </a>
+              . All rights reserved.
+            </p>
           </Col>
 
           <Col md={6} className="">

@@ -7,7 +7,6 @@ function Header() {
     <header>
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary fixed-top order-lg-1 animated">
         <Container className="header-container">
-          <Navbar.Brand href="#home">JOHN STANBRIDGE</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
@@ -49,7 +48,9 @@ function Header() {
             </a>
           </div>
           <div className="mt-40 text-center">
-            <Button className="theme-btn">Hire Me</Button>
+            <a href="#contact" className="text-white">
+              <Button className="theme-btn">Hire Me</Button>{" "}
+            </a>
           </div>
         </div>
       </div>
