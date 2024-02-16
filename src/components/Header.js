@@ -7,7 +7,7 @@ function Header() {
     <header>
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary fixed-top order-lg-1 animated">
         <Container className="header-container">
-          <Navbar.Brand href="#home">PORTFOLIO</Navbar.Brand>
+          <Navbar.Brand href="#home">JOHN STANBRIDGE</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
@@ -15,7 +15,6 @@ function Header() {
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about-me">About</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#experience_education">Education</Nav.Link>
               <Nav.Link href="#experience_education">Experience</Nav.Link>
               <Nav.Link href="#portfolio">Portfolio</Nav.Link>
               <Nav.Link href="#testimonials">Testimonials</Nav.Link>
