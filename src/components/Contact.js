@@ -6,7 +6,7 @@ import { FaEnvelope, FaMapMarker, FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-53 animated">
+    <section id="contact" className="py-53 animated" data-aos="fade-up">
       <Container>
         <h2 className="text-center mb-4 textContainer">
           <span className="borderEffect">Contact Me</span>
@@ -52,12 +52,12 @@ const Contact = () => {
                       </span>
                       <br />
                       <span className="contact-detailSpan">
-                        <a href="mailto:hello@john.com" className="a-color">
-                          hello@john.com
+                        <a href="mailto:hello@janny.com" className="a-color">
+                          hello@janny.com
                         </a>
                         <br />
-                        <a href="mailto:john@company.com" className="a-color">
-                          john@company.com
+                        <a href="mailto:janny@company.com" className="a-color">
+                          janny@company.com
                         </a>
                       </span>
                     </p>

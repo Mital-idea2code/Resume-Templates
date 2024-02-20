@@ -5,8 +5,14 @@ import { FaFacebook, FaLinkedin, FaTwitter, FaGoogle, FaInstagram } from "react-
 function Header() {
   return (
     <header>
-      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary fixed-top order-lg-1 animated">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className="bg-body-tertiary fixed-top order-lg-1 animated"
+        data-aos="zoom-out"
+      >
         <Container className="header-container">
+          <Navbar.Brand href="#home">Janny Stanbridge</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
@@ -27,10 +33,10 @@ function Header() {
       <div className="full-screen-image order-lg-2 animated" id="home">
         <div className="overlay">
           <h1 className="text-center text-white">Hi, I'm </h1>
-          <h1 className="text-center text-white headname_style"> John Stanbridge</h1>
+          <h1 className="text-center text-white headname_style"> Janny Stanbridge</h1>
           <p className="lead text-center text-white lead-font">Frontend Web Developer and Graphics Designer</p>
           {/* Social Media Links */}
-          <div className="social-links text-center">
+          <div className="social-links text-center" data-aos="fade-up">
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
               <FaFacebook className="social-icon" />
             </a>
